@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slow_food</title>
+  <link rel="" href="">
+</head>
+<body>
+  <header>
+		<h1>SFYntership</h1>
+		<nav>
+    <h2>Navigation</h2>
+                <ul>
+                    <li><a href="index.html" class = "active"> Home</a></li>      
+                    <li><a...> Finde ein Praktikum</a></li>
+                    <li><a...> Für Betriebe</a></li>
+                  <li><a...> Über SFYnthership</a></li>
+                  <li><a...> Partner &amp; Projekte</a></li>
+                </ul>
+  </nav>
+    </header>
+  <main> 
+    </main>
+  
+  <footer>
+  </footer>
+  
+</body>
