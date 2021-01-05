@@ -11,11 +11,11 @@
 		<nav>
     <h2>Navigation</h2>
                 <ul>
-                    <li><a href="index.html" class = "active"> Home</a></li>      
-                    <li><a...> Finde ein Praktikum</a></li>
-                    <li><a...> Für Betriebe</a></li>
-                  <li><a...> Über SFYnthership</a></li>
-                  <li><a...> Partner &amp; Projekte</a></li>
+                    <a href="index.html"> Home</a>     
+                    <a href="Praktikum.html">Finde ein Praktikum</a>
+                    <a href="Betriebe.html">Für Betriebe</a>
+                    <a href ="SFY.html">Über SFYnthership</a>
+                    <a href="Partner.html"> Partner &amp; Projekte</a>
                 </ul>
   </nav>
     </header>
