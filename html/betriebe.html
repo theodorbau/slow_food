@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <include src="../header.html"></include>
+    <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
     <main> 
       <h2> Werde SFYintership Betrieb</h2>
 
@@ -15,6 +15,6 @@
       
     </main>
   
-  <include scr="./footer.html"></include>
+    <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
   
 </body>
