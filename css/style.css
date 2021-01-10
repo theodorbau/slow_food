@@ -1,9 +1,70 @@
 body {
 	margin: 0;
 	padding:0;
-	background: #ccc;
+	background: #C0C0C0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+main{
+  background-color: ;
+  padding: 10px;
+  height: 200px;
+}
+img{
+	 padding: 10px;
+  height: 200px;
+}
+/*Navigation*/
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*
 nav ul{
 	list-style: none;
 	background-color: #444;
@@ -11,8 +72,7 @@ nav ul{
 	padding: 0;
 	margin: 0;
 } 
-
-nav > li{
+*nav > li{
 	width: 20%;
 	border-right: 1px solid black;
 	height: 50px;
@@ -22,7 +82,7 @@ nav > li{
 	margin-right: -4px;
 }
 
-nav li:last-child{
+nav li .last-child{
 	border-right: none;
 }
 nav li li {
@@ -61,7 +121,7 @@ nav a{
 	background-color: #800000;
 }
 
-/*Sub Menus */
+/*Sub Menus 
 nav li li {
 	font-size: .8em;
 }
@@ -74,7 +134,7 @@ nav > ul > li > a{
 	padding-left: 0;
 }
 
-/*Sub Menus */
+/*Sub Menus *
 nav li ul {
 	position: absolute;
 	display: none;
@@ -87,4 +147,33 @@ nav li:hover ul {
 
 nav li ul li {
 	display: block;
+}/
+
+/*Table*/
+#Betriebe {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
+
+#customers td, #Betriebe th {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+#Betriebe tr:nth-child(even){background-color: #f2f2f2;}
+
+#Betriebe tr:hover {background-color: #ddd;}
+
+#Betriebe th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*footer*/
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;

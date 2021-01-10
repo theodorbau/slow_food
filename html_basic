@@ -13,9 +13,9 @@
                 <ul>
                     <a href="index.html"> Home</a>     
                     <a href="Praktikum.html">Finde ein Praktikum</a>
-                    <a href="Betriebe.html">Für Betriebe</a>
-                    <a href ="SFY.html">Über SFYnthership</a>
-                    <a href="Partner.html"> Partner &amp; Projekte</a>
+                    <a href="../html/betriebe.html">Für Betriebe</a>
+                    <a href ="../SFY.html">Über SFYnthership</a>
+                    <a href="./Partner.html"> Partner &amp; Projekte</a>
                 </ul>
   </nav>
     </header>
