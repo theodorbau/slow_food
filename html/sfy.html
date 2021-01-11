@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <include src="html/header.html"></include>
+  <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
     <main> 
       <h2> Worum geht es?</h2>
       <p>Sfynternship steht für Internships im Slow Food Netzwerk. Das Slow Food Youth Projekt Sfynternship möchte einen lebendigen Erfahrungsaustausch für Mitglieder*innen im Slow Food Netzwerk unterstützen. Ziel ist es, Slow Food für junge Leute besser erfahrbar zu machen und gleichzeitig Projekte und Betriebe einen Mehrwert zu bieten. Dafür möchten wir Praktika in Slow Food Convivien oder Slow Food nahestehenden Betrieben, Höfen und Projekten vermitteln. Die Begegnung von Menschen sowie der Austausch von Wissen und Erfahrung hat bei Slow Food einen hohen Stellenwert. Gemeinsamen Essen, gemeinsames Kochen, gemeinsames Genießen gehört genauso dazu, wie die Bewahrung von Wissen und die Umsetzung von Fähigkeiten und Ideen. Wir möchten jungen Leuten hier einen Einblick ermöglichen, um Wertschätzung zu fördern, Wissen zu vermitteln und die Verbindung zwischen Produzent*innen und Verbraucher*innen zu stärken.</p>
@@ -17,6 +17,6 @@
       
     </main>
   
-  <include scr="html/footer.html"></include>
+    <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
   
 </body>

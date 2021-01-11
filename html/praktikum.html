@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>slow_food</title>
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
-  <include src="html/header.html"></include>
+  <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
  
     <main> 
       <h2> Finde ein Praktikum</h2>
@@ -62,6 +63,6 @@
       </section>
     </main>
   
-  <include scr="html/footer.html"></include>
+    <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
   
 </body>
