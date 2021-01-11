@@ -1,13 +1,16 @@
 body
 {
   background-color: wheat;
+  h1{
+    font-size: small;
+  }
 }
 li
 {
   list-style-type: none;
   margin-left: 1vw;
   display: inline;
-  
+
 }
 
 li:first-child
