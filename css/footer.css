@@ -6,6 +6,8 @@ li
 {
   list-style-type: none;
   margin-left: 1vw;
+  display: inline;
+  
 }
 
 li:first-child
@@ -30,14 +32,21 @@ footer
   background-color: beige;
 }
 
-.copyright,  .impressum
+.copyright  
 {
-  text-align: center;
+  float: left;
+  margin-left: 1%;
+}
+.impressum
+{
+  float: right;
+  line-height: 20%;
+  margin: 1%;
 }
 
 .logo
 {
-  height: 8vh;
+  height: 2vh;
 }
 
 @media (max-width: 768px) 
