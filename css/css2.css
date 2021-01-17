@@ -27,7 +27,6 @@ a {text-decoration: none;}
 	height: 70px;
 	z-index: 1;
 }
-
 body {
 	color:black;
 	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
@@ -85,7 +84,7 @@ nav li ul li {
 
 nav li li:hover {
 	background-color:grey;
-
+}
 /* Screens Settings */
 #screen1 {
 	background: white;
@@ -112,11 +111,6 @@ nav li li:hover {
 	}
 
 }
-.content-box{
-	box-sizing: content-box;
-	  width: 80%;
-	padding: 50px;
-  }
 
   /*Table*/
   #Betriebe {
@@ -162,3 +156,8 @@ nav li li:hover {
 	}
 
 }  
+.content-box{
+	box-sizing: content-box;
+	  width: 80%;
+	padding: 50px;
+  }
