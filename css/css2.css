@@ -77,12 +77,14 @@ nav li ul {
 
 nav li:hover ul {
 	display: block;
-	color:black;
 }
 
 nav li ul li {
 	display: block;
 }
+
+nav li li:hover {
+	background-color:grey;
 
 /* Screens Settings */
 #screen1 {
@@ -95,7 +97,7 @@ nav li ul li {
 
 #screen2 {
 	background: white;
-  padding-top: 10px;
+  	padding-top: 10px;
 }
 
 
