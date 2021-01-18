@@ -4,16 +4,8 @@
     <meta charset="UTF-8">
     <title>slow_food</title>
   <link rel="stylesheet" href="../css/css2.css">
-  <style>
-    #map {height: 500px;
-        width: 1000px;
-        display: inline-block;
-        border: 5px solid black;
-        position: relative;
-        left: 110px;
-     }
-  </style>
 </head>
+
 <body>
   <div>
     <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()">
@@ -21,12 +13,20 @@
   </div>
   <div class="row">
     <div class="card">
-  <section id="screen1">
+  <section class="screen">
       <h2> Willkommen bei SFYnternship!</h2>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js">
   </script>
-  
+    <style>
+      #map {height: 500px;
+          width: 1000px;
+          display: inline-block;
+          border: 5px solid #d52b1e;
+          position: relative;
+          left: 0px;
+       }
+    </style>
 <div id = "map"></div>
   <script>
     var map = L.map('map').setView([51, 10.8], 5);
@@ -35,7 +35,7 @@
     }).addTo(map);
 
     var slowfoodicon = L.icon ({
-      iconUrl: 'img/IMG_0427.png',
+      iconUrl: '../img/IMG_0427.png',
       iconSize: [30, 30],
       popupAnchor: [-3, -11]
       
