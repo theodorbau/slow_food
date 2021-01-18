@@ -6,27 +6,12 @@
   <link rel="stylesheet" href="../css/css2.css">
 </head>
 <body>
+  <div>
   <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
- 
-    <main> 
-      <h1> Finde ein Praktikum</h1>
-      <nav>
-        <li><a href="#">Home</a></li>     
-        <li><a href="html/praktikum.html">Finde ein Praktikum</a></li>
-         <ul>
-           <li><a href="#">Stellen</a></li>
-           <li><a href="#">Erfahrungsberichte</a></li>
-         </ul>
-        <li><a href="html/betriebe.html">Für Betriebe</a></li>
-        <li><a href="html/sfy.html">Über SFYnthership</a></li>
-          <ul>
-            <li><a href="#">Über uns</a></li>
-            <li><a href="#">Worum geht es?</a></li>
-            <li><a href="#">Mitmachen</a></li>
-          </ul>
-          <li><a href="html/partner.html"> Partner &amp; Projekte</a></li>
-  </nav>
-      <section class="content-box">
+</div>
+<div class="row">
+  <div class="card">
+    <h2>Betriebe</h2>
         <ul>
           <table id="Betriebe">
             <tr> 
@@ -59,26 +44,25 @@
             </tr>
           </table>
         </ul>
-      </section>
-        <aside> Hier könnte die Map links neben der Tabelle stehen</aside>
-      <section class="content-box">
-        <h3>Erfahrungsberichte</h3>
-        <h4>Gemüsehof in Lübeck</h4>
+  </div>
+  <div class="card">
+        <h2>Erfahrungsberichte</h2>
+        <h3>Gemüsehof in Lübeck</h3>
           <figure>
             <img src="../img/Gemüse.jpg" alt="Gewächshaus in Lübeck"/> 
             <figcaption>"Gewächshaus in Lübeck"</figcaption>
           </figure>
           <p>Ich war 3 Monate auf dem Gemüsehof in Lübeck und habe tolle Eindrücke bekommen und viel gelernt.</p>
-      <h5>Viehbetrieb in Baden-Württemberg</h5>
+      <h3>Viehbetrieb in Baden-Württemberg</h3>
           <figure>
             <img src="../img/Kühe.jpg" alt="Viehhaltung in Baden-Württemberg"/>
             <figcaption>"Viehhaltung in Baden-Württemberg"</figcaption>
           </figure>
           <p>Hier werden die Kühe mit frischem Gras gefüttert und artgerecht gehalten. Ich kann diesen Betrieb nur weiterempfehlen.</p>
-      </section>
-    </main>
-    <footer>
+     </div>
+     </div>
+   <div class="footer">
       <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-    </footer>
-  
+    </div>
 </body>
+</html>
