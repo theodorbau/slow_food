@@ -5,23 +5,28 @@
     <title>slow_food</title>
   <link rel="stylesheet" href="../css/css2.css">
 </head>
+
 <body>
-    <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-    <main> 
-        <section class="screen">
+  <div>
+    <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()">
+    </iframe>
+  </div>
+  <div class="row">
+    <div class="card">
+  <section class="screen">
       <h2> Willkommen bei SFYnternship!</h2>
-      <br>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  <style>
-    #map {height: 500px;
-        width: 1000px;
-        display: inline-block;
-        border: 5px solid #d52b1e;
-        position: relative;
-        left: 0px;
-     }
-  </style>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js">
+  </script>
+    <style>
+      #map {height: 500px;
+          width: 1000px;
+          display: inline-block;
+          border: 5px solid #d52b1e;
+          position: relative;
+          left: 0px;
+       }
+    </style>
 <div id = "map"></div>
   <script>
     var map = L.map('map').setView([51, 10.8], 5);
@@ -45,7 +50,6 @@
             this.closePopup();
         }); 
 
-
         var zentralemarker = L.marker([52.5231309, 13.3796887], {icon: slowfoodicon}).addTo(map);
     zentralemarker.bindPopup("<b>Slow Food Deutschland e.V.</b><br>Luisenstraße 45");
     zentralemarker.on('mouseover',function(ev) {
@@ -54,12 +58,12 @@
     zentralemarker.on('mouseout', function (e) {
             this.closePopup();
         });
-
   </script>
-</br>
 </section>
-    </main>
-  
-  
-  
+    </div>
+  </div>
+    <div class="footer">
+      <link rel="footer" href="../html/footer.html">
+    </div> 
 </body>
+</html>

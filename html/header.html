@@ -1,23 +1,22 @@
   <header>
-    <div id="logo">
+  <div id="logo">
     <img src="https://www.slowfood.de/@@site-logo/sl_logo.png" alt="Logo von Slow Food"> 
     <h1>SFYntership</h1>
   </div>
 
-  <script language="javascript" type="text/javascript">  
-   $(document).ready(function(){
-    $(window).bind('scroll', function() {
-    var navTop = $( window ).height() - 75;
-      if ($(window).scrollTop() > navTop) {
-        $('nav').addClass('fixed');
-      }
-      else {
-        $('nav').removeClass('fixed');
-      }
+    <script>
+    $(document).ready(function(){
+      $(window).bind('scroll', function() {
+      var navHeight = $( window ).height() - 75;
+        if ($(window).scrollTop() > navHeight) {
+          $('nav').addClass('fixed');
+        }
+        else {
+          $('nav').removeClass('fixed');
+        }
+     });
    });
- });
- </script>
-
+  </script>
 		<nav>
       <ul>
         <li><a href="basic.html">Home</a></li>     
