@@ -8,7 +8,7 @@
 <body>
     <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
     <main> 
-        <section id="screen1">
+        <section class="screen">
       <h2> Willkommen bei SFYnternship!</h2>
       <br>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
@@ -17,9 +17,9 @@
     #map {height: 500px;
         width: 1000px;
         display: inline-block;
-        border: 5px solid black;
+        border: 5px solid #d52b1e;
         position: relative;
-        left: 110px;
+        left: 0px;
      }
   </style>
 <div id = "map"></div>
@@ -30,7 +30,7 @@
     }).addTo(map);
 
     var slowfoodicon = L.icon ({
-      iconUrl: 'img/IMG_0427.png',
+      iconUrl: '../img/IMG_0427.png',
       iconSize: [30, 30],
       popupAnchor: [-3, -11]
       

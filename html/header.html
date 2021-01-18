@@ -3,7 +3,23 @@
     <img src="https://www.slowfood.de/@@site-logo/sl_logo.png" alt="Logo von Slow Food"> 
     <h1>SFYntership</h1>
   </div>
+
+  <script language="javascript" type="text/javascript">  
+   $(document).ready(function(){
+    $(window).bind('scroll', function() {
+    var navTop = $( window ).height() - 75;
+      if ($(window).scrollTop() > navTop) {
+        $('nav').addClass('fixed');
+      }
+      else {
+        $('nav').removeClass('fixed');
+      }
+   });
+ });
+ </script>
+
 		<nav>
+      <ul>
         <li><a href="basic.html">Home</a></li>     
         <li><a href="praktikum.html">Finde ein Praktikum</a>
          <ul>
@@ -20,5 +36,6 @@
           </ul>
         </li>
           <li><a href="partner.html"> Partner &amp; Projekte</a></li>
+        </ul>
     </nav>
   </header>
