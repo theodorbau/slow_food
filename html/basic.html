@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>slow_food</title>
   <link rel="stylesheet" href="../css/css2.css">
-  <script src="https://code.jquery.com/jquery-latest.js"></script>
 </head>
 
 <body>
@@ -34,6 +33,7 @@
           border: 5px solid #d52b1e;
           position: relative;
           left: 0px;
+          z-index: 0;
        }
     </style>
 <div id = "map"></div>
@@ -50,12 +50,12 @@
       
     })
 
-    var theomarker = L.marker([54.3211183, 10.1271110], {icon: slowfoodicon}).addTo(map);
-    theomarker.bindPopup("<b>Grüße aus Theos Wohnung</b><br>Exerzierplatz 13");
-    theomarker.on('mouseover',function(ev) {
-      theomarker.openPopup();
+    var luebeckmarker = L.marker([53.8411341, 10.7136318], {icon: slowfoodicon}).addTo(map);
+    luebeckmarker.bindPopup("<b>Gärtnerei Lübeck</b><br>Gemüseanbau");
+    luebeckmarker.on('mouseover',function(ev) {
+      luebeckmarker.openPopup();
     });
-    theomarker.on('mouseout', function (e) {
+    luebeckmarker.on('mouseout', function (e) {
             this.closePopup();
         }); 
 
@@ -67,6 +67,25 @@
     zentralemarker.on('mouseout', function (e) {
             this.closePopup();
         });
+
+        var bayernmarker = L.marker([48.3818777, 11.3473759], {icon: slowfoodicon}).addTo(map);
+    bayernmarker.bindPopup("<b>Fischerei Bayern</b><br>Kühlhaus");
+    bayernmarker.on('mouseover',function(ev) {
+      bayernmarker.openPopup();
+    });
+    bayernmarker.on('mouseout', function (e) {
+            this.closePopup();
+        });
+
+        var hamburgmarker = L.marker([53.5486578, 10.0194605], {icon: slowfoodicon}).addTo(map);
+    hamburgmarker.bindPopup("<b>Bäckerei Hamburg</b><br>Backstube");
+    hamburgmarker.on('mouseover',function(ev) {
+      hamburgmarker.openPopup();
+    });
+    hamburgmarker.on('mouseout', function (e) {
+            this.closePopup();
+        });
+
   </script>
 </section>
     </div>
