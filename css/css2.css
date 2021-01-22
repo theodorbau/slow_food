@@ -1,3 +1,4 @@
+
 h1 {padding: 10;}
 
 * {margin: 0; padding: 0;}
@@ -13,9 +14,25 @@ h2 {color: grey;
 	margin-top: 0px;
 }
 
+h3 {
+	line-height: 1.6;
+}
+
+figcaption {
+	font-size: small;
+	line-height: 0%;
+}
+
 .praktikumsbilder{
     padding: 10px;
     height: 200px;
+  }
+.home {
+	background-color: white;
+	margin: 40px;
+	text-align: justify;
+	line-height:1.6;
+	font-family: 'Fira Sans',sans-serif;
   }
 
 #logo {
@@ -113,11 +130,13 @@ nav li li:hover {
 /* Screens Settings */
 .screen {
 	background: white;
+	margin-top: 20px;
 }
 
   /*Table*/
   #Betriebe {
 	  font-family: Arial, Helvetica, sans-serif;
+	  line-height:1.6;
 	  border: solid;
 	  border-collapse: collapse;
 	  width: 100%;
@@ -136,7 +155,8 @@ nav li li:hover {
    #Betriebe th {
 	  padding-top: 12px;
 	  padding-bottom: 12px;
-	  text-align: left;
+	  line-height:1.6;
+	  text-align: center;
 	  background-color: #d52b1e;
 	  color: white;
 	}
@@ -147,9 +167,10 @@ nav li li:hover {
 	  }
 	   body {
 		font-family: Arial;
-		padding: 10px;
+		padding: 30px;
 		background: #f1f1f1;
 		text-align: center;
+		line-height:1.6;
 	  }	  
 /* Create two unequal columns that floats next to each other */
 /* Left column */
@@ -168,7 +189,7 @@ nav li li:hover {
   
   /* Fake image */
   .fakeimg {
-	background-color: #aaa;
+	background-color:#d52b1e;
 	width: 100%;
 	padding: 20px;
   }
@@ -186,12 +207,28 @@ nav li li:hover {
 	display: table;
 	clear: both;
   }
+
+#Berichtbox {
+	background-color:#ddd;
+	width: 40%;
+	padding: 20px;
+	flex-direction: row | row-reverse | column | column-reverse;
+}
+
+#erfahrungsberichte {
+flex-direction: row | row-reverse | column | column-reverse;
+order: 2;
+}
+
+
+
   /* Footer */
 .footer {
 	padding: 20px;
 	text-align: center;
 	background: #ddd;
 	margin-top: 20px;
+	justify-content:space-around;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
