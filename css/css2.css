@@ -36,9 +36,6 @@ h5 {
 	font-size: 1em;
 }
 
-br {
-	line-height: 0%;
-}
 
   /* Styling Homeseite */
 .home {
@@ -47,7 +44,7 @@ br {
 	text-align: justify;
 	line-height:1.6;
   }
-
+/* Logo im Header */
 #logo {
 	position: absolute;
 	top: 100px;
@@ -267,17 +264,50 @@ figcaption {
 
 
   /* Footer */
+
 .footer {
-	padding: 20px;
+	padding: 30px;
 	text-align: center;
 	background: #ddd;
-	margin-top: 20px;
+	margin: 20px;
+	display: block;
+	
+  }
+
+.footerbox {
 	flex-direction: row;
 	justify-content:space-around;
-	line-height:1.0;
 	display: block;
-w
-  }
+}
+.impressum {
+	text-align: justify;
+	line-height:1.0;
+	display: block-inline;
+	float: left;
+	font-size:small;
+}
+ h6 {
+	 text-align: left;
+	 font-size:small;
+ }
+.copy {
+	float:right;
+	font-size:small;
+	display: inline;
+	margin-bottom: 2%;
+}
+
+.icons-all {
+text-align: center;
+
+}
+
+.icon {
+	display: inline;
+	margin: 0 10px 10px;
+	font-size: 20px;
+	width: 2%;
+}
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
