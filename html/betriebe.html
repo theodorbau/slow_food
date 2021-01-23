@@ -46,5 +46,21 @@
     <h2><Footer></h2>
     <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $(window).bind('scroll', function() {
+    var navHeight = $( window ).height() - 66;
+    console.log(navHeight);
+      if ($(window).scrollTop() > navHeight) {
+        $('nav').addClass('fixed');
+      }
+      else {
+        $('nav').removeClass('fixed');
+      }
+   });
+ });
+</script>
 </body>
 </html>
