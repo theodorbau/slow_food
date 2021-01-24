@@ -143,39 +143,7 @@ nav li li:hover {
 	margin-top: 20px;
 }
 
-/* Styling Praktikumsseite */
-#erfahrungsberichte {
-	flex-direction: row;
-	order: 2;
-	}
 
-#Berichtbox1 {
-	background-color:#ddd;
-	width: 49%;
-	height: 110%;
-	padding: 20px;
-	text-align: justify;
-	float: left;
-}
-#Berichtbox2 {
-	background-color:#ddd;
-	width: 49%;
-	padding: 20px;
-	text-align: justify;
-	float: right;
-}
-
-.praktikumsbilder{
-    padding: 10px;
-	height: 200px;
-	text-align: center;
-	line-height: 0%;
-  }
-
-figcaption {
-	font-size: small;
-	line-height: 0%;
-}
 
   /*Table*/
   #Betriebe {
@@ -209,7 +177,39 @@ figcaption {
 	* {
 	box-sizing: border-box;
 	  }
-	   
+/* Styling Praktikumsseite */
+#erfahrungsberichte {
+	flex-direction: row;
+	order: 2;
+	}
+
+#Berichtbox1 {
+	background-color:#ddd;
+	width: 49%;
+	height: 110%;
+	padding: 20px;
+	text-align: justify;
+	float: left;
+}
+#Berichtbox2 {
+	background-color:#ddd;
+	width: 49%;
+	padding: 20px;
+	text-align: justify;
+	float: right;
+}
+
+.praktikumsbilder{
+    padding: 10px;
+	height: 200px;
+	text-align: center;
+	line-height: 0%;
+  }
+
+figcaption {
+	font-size: small;
+	line-height: 0%;
+}	   
 /* Styling Betriebsseite */
 .textbox {
 	text-align: justify;
@@ -217,10 +217,7 @@ figcaption {
 /* Styling Betriebsseite */
 
 .netzwerk{
-	width: 30%;
-	text-align: left;
-	padding: 0,5%;
-	margin-right: 20%;
+	padding: auto;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -249,7 +246,7 @@ figcaption {
   .card {
 	background-color: white;
 	padding: 20px;
-	margin-top: 60px;
+	margin-top: 30px;
   }
   
   /* Clear floats after the columns */
@@ -259,17 +256,13 @@ figcaption {
 	clear: both;
   }
 
-
-
-
-
   /* Footer */
 
 .footer {
 	padding: 30px;
 	text-align: center;
 	background: #ddd;
-	margin: 20px;
+	margin-top: 20px;
 	display: block;
 	
   }
@@ -285,6 +278,7 @@ figcaption {
 	display: block-inline;
 	float: left;
 	font-size:small;
+	padding: 10px;
 }
  h6 {
 	 text-align: left;
@@ -299,14 +293,11 @@ figcaption {
 
 .icons-all {
 text-align: center;
-
 }
 
 .icon {
 	display: inline;
-	margin: 0 10px 10px;
-	font-size: 20px;
-	height: 8vh;
+	padding: 10px
 }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
