@@ -80,7 +80,8 @@ nav {
 nav li {
 	display: inline-block;
 	padding: 25px 10px;
-  	background-color: #d52b1e;
+	  background-color: #d52b1e;
+	  width: initial;
 }
 
 nav li a {
@@ -98,6 +99,7 @@ header {
 nav li li {
 	font-size: .8em;
 	z-index: 1;
+	
 }
 
 nav > ul > li {
@@ -105,7 +107,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a{
-
+padding-left: 0px;
 }
 
 .unterpunkt {
@@ -116,7 +118,7 @@ nav > ul > li > a{
 nav li ul {
 	position: absolute;
 	display: none;
-	width: inherit;
+	width: 180px;
 	z-index:1;
 }
 
@@ -126,6 +128,7 @@ nav li:hover {
 
 nav li:hover ul {
 	display: block;
+	margin-left:-10px;
 }
 
 nav li ul li {
@@ -136,6 +139,17 @@ nav li li:hover {
 	background-color:grey;
 }
 
+@media only screen and (max-width: 850px) {
+
+	nav li {
+		padding: 25px 4px;
+	}
+
+	nav li a {
+		font-size: 9px;
+	}
+
+}
 
 /* Screens Settings */
 .screen {
@@ -309,3 +323,9 @@ text-align: center;
 	  padding: 0;
 	}
   }
+
+  .sprung {visibility: hidden;
+			height: 0px !important; 
+			position: absolute; 
+			margin: -100px;
+		}
