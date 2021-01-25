@@ -181,21 +181,20 @@ nav li li:hover {
 #erfahrungsberichte {
 	flex-direction: row;
 	order: 2;
+	box-sizing: border-box;
 	}
 
 #Berichtbox1 {
 	background-color:#ddd;
 	width: 49%;
 	height: 110%;
-	padding: 20px;
-	text-align: justify;
+	padding: 1em;
 	float: left;
 }
 #Berichtbox2 {
 	background-color:#ddd;
 	width: 49%;
-	padding: 20px;
-	text-align: justify;
+	padding: 1em;
 	float: right;
 }
 
