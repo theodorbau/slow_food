@@ -174,27 +174,30 @@ nav li li:hover {
 	}
 
 
-	* {
-	box-sizing: border-box;
-	  }
+* {
+box-sizing: border-box;
+}
+
 /* Styling Praktikumsseite */
 #erfahrungsberichte {
+	display:flex;
 	flex-direction: row;
-	display: flex;
-	order: 2;
-	box-sizing: border-box;
+	justify-content: center;
 	}
 
 #Berichtbox1 {
 	background-color:#ddd;
-	width: 30%;
+	width: 49%;
 	height: 110%;
 	padding: 1em;
+
 }
+
 #Berichtbox2 {
 	background-color:#ddd;
-	width: 30%;
+	width: 49%;
 	padding: 1em;
+	
 }
 
 .praktikumsbilder{
