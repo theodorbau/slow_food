@@ -180,22 +180,21 @@ nav li li:hover {
 /* Styling Praktikumsseite */
 #erfahrungsberichte {
 	flex-direction: row;
+	display: flex;
 	order: 2;
 	box-sizing: border-box;
 	}
 
 #Berichtbox1 {
 	background-color:#ddd;
-	width: 49%;
+	width: 30%;
 	height: 110%;
 	padding: 1em;
-	float: left;
 }
 #Berichtbox2 {
 	background-color:#ddd;
-	width: 49%;
+	width: 30%;
 	padding: 1em;
-	float: right;
 }
 
 .praktikumsbilder{
