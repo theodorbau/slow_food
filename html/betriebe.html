@@ -64,7 +64,6 @@
   $(document).ready(function(){
     $(window).bind('scroll', function() {
     var navHeight = $( window ).height() - 75;
-    console.log(navHeight);
       if ($(window).scrollTop() > navHeight) {
         $('nav').addClass('fixed');
       }
