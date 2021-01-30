@@ -22,8 +22,7 @@ h2 {color: grey;
 
 h3 {
 	line-height: 1;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 h4 { 
@@ -73,13 +72,13 @@ a {text-decoration: none;}
 nav {
 	position: absolute;
 	bottom: 0;
-	width: 95.3%;
+	width: 97%;
 	height: 75px;
 	background: #d52b1e;
 }
-
 nav li {
 	display: inline-block;
+	box-sizing: content-box;
 	padding: 25px 10px;
 	  background-color: #d52b1e;
 	  width: initial;
@@ -100,7 +99,7 @@ header {
 nav li li {
 	font-size: .8em;
 	z-index: 1;
-	
+	width: 100%;
 }
 
 nav > ul > li {
@@ -119,7 +118,7 @@ padding-left: 0px;
 nav li ul {
 	position: absolute;
 	display: none;
-	width: 180px;
+	width: 175px;
 	z-index:1;
 }
 
@@ -193,14 +192,6 @@ box-sizing: border-box;
 }
 
 /* Styling Praktikumsseite */
-#erfahrungsberichte {
-	display:flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	order: 2;
-	justify-content: center;
-	align-content: stretch;
-	}
 
 #Berichtbox1 {
 	background-color:#ddd;
@@ -265,6 +256,18 @@ figcaption {
 	background-color: white;
 	padding: 20px;
 	margin-top: 30px;
+  }
+  .card2 {
+	background-color: white;
+	padding: 20px;
+	margin-top: 30px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	order: 2;
+	justify-content: center;
+	align-content: stretch;
+
   }
   
   /* Clear floats after the columns */
